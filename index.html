@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House of Lights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>House of Lights</h1>
+    </header>
+    
+    <main>
+        <h2>Products</h2>
+        <div class="product">
+            <img src="images/gu5.3-warm-light-led-bulb.jpg" alt="GU5.3 Warm Light LED Bulb">
+            <h3>GU5.3 Warm Light LED Bulb</h3>
+            <p>Price: 55 EGP</p>
+            <button class="add-to-cart" data-product="GU5.3 Warm Light LED Bulb" data-price="55">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/e27-12w-bulb.jpg" alt="12W E27 Bulb">
+            <h3>12W E27 Bulb</h3>
+            <p>Price: 100 EGP</p>
+            <button class="add-to-cart" data-product="12W E27 Bulb" data-price="100">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/e27-9w-cool-light-bulb.jpg" alt="9W E27 Cool Light Bulb">
+            <h3>9W E27 Cool Light Bulb</h3>
+            <p>Price: 65 EGP</p>
+            <button class="add-to-cart" data-product="9W E27 Cool Light Bulb" data-price="65">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/e27-15w-white-led-bulb.jpg" alt="15W E27 White LED Bulb">
+            <h3>15W E27 White LED Bulb</h3>
+            <p>Price: 120 EGP</p>
+            <button class="add-to-cart" data-product="15W E27 White LED Bulb" data-price="120">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/led-panel-40w.jpg" alt="LED Panel 40W">
+            <h3>LED Panel 40W</h3>
+            <p>Price: 300 EGP</p>
+            <button class="add-to-cart" data-product="LED Panel 40W" data-price="300">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/led-panel-48w.jpg" alt="LED Panel 48W">
+            <h3>LED Panel 48W</h3>
+            <p>Price: 450 EGP</p>
+            <button class="add-to-cart" data-product="LED Panel 48W" data-price="450">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/grass-lamp-10w.jpg" alt="10W Grass Lamp">
+            <h3>10W Grass Lamp</h3>
+            <p>Price: 200 EGP</p>
+            <button class="add-to-cart" data-product="10W Grass Lamp" data-price="200">Add to Cart</button>
+        </div>
+        
+        <h2>Checkout</h2>
+        <form id="paymentForm">
+            <h3>Select Payment Method</h3>
+            <label>
+                <input type="radio" name="payment" value="paymob" checked>
+                Pay with Visa
+            </label><br>
+            <label>
+                <input type="radio" name="payment" value="cod">
+                Cash on Delivery
+            </label><br>
+            <button type="submit">Pay Now</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
